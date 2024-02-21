@@ -21,7 +21,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         // change
-        title: 'Contact Cards'
+        title: 'Text Editor'
       }),
      
       // Injects our custom service worker
@@ -35,11 +35,11 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         // change these
-        name: 'Contact Cards',
-        short_name: 'Contact',
-        description: 'Never forget your contacts!',
+        name: 'Just Another Text Editor',
+        short_name: 'Text Editor',
+        description: 'A text editor that runs in the browser',
         background_color: '#225ca3',
-        theme_color: '#225ca3',
+        theme_color: '#225ca3',gf
         start_url: './',
         publicPath: './',
         icons: [
